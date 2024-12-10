@@ -7,7 +7,7 @@
 
 /* Body styling */
 body {
-  font-family: Arial, sans-serif;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
   background-color: #f0f2f5;
   display: flex;
   justify-content: center;
@@ -28,19 +28,20 @@ body {
 .left-section {
   flex: 1;
   margin-right: 50px;
+  margin-top: 55px;
 }
 
 .logo {
-  color: #1877f2;
-  font-size: 65px;
+  color: #0067fa;
+  font-size: 70px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .description {
   font-size: 25px;
   color: black;
-  line-height: 1.5;
+  line-height: 1;
 }
 
 /* Right Section */
@@ -56,7 +57,7 @@ body {
   background: #fff;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 3px 3px 4px 4px rgba(0, 0, 0, 0.1);
   width: 360px;
   text-align: center;
 }
@@ -72,8 +73,8 @@ body {
 
 .login-btn {
   width: 100%;
-  padding: 10px;
-  background-color: #1877f2;
+  padding: 15px;
+  background-color: #0067fa;
   color: white;
   font-size: 16px;
   font-weight: bold;
@@ -83,14 +84,14 @@ body {
 }
 
 .login-btn:hover {
-  background-color: #165dc9;
+  background-color: #0067fa;
 }
 
 .forgot-password {
   display: block;
   margin: 15px 0;
   font-size: 14px;
-  color: #1877f2;
+  color: #0067fa;
   text-decoration: none;
 }
 
@@ -105,9 +106,9 @@ hr {
 }
 
 .create-account-btn {
-  width: 100%;
-  padding: 10px;
-  background-color: #42b72a;
+  width: 65%;
+  padding: 15px;
+  background-color: rgba(26, 182, 59, 255);
   color: white;
   font-size: 16px;
   font-weight: bold;
@@ -117,12 +118,12 @@ hr {
 }
 
 .create-account-btn:hover {
-  background-color: #36a420;
+  background-color: rgba(26, 182, 59, 255);
 }
 
 /* Footer Text */
 .footer-text {
   margin-top: 20px;
   font-size: 14px;
-  color: #606770;
+  color: black;
 }
