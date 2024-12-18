@@ -4,49 +4,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Professional Community</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>LinkedIn: Log In or Sign Up</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header>
-    <div class="logo">
-      <img src="linkedin-logo.png" alt="LinkedIn Logo">
+  <div id="parent">
+    <div id="div_top">
+      <div id="div_top_left">
+        <img src="linkedin.png" id="linkedin_logo">
+      </div>
+      <div id="div_top_right">
+        <table id="tble1">
+          <tr>
+            <td><img class="top_icons" src="img/article.png"><br>Articles</td>
+            <td><img class="top_icons" src="img/people.png"><br>People</td>
+            <td><img class="top_icons" src="img/learning.png"><br>Learning</td>
+            <td><img class="top_icons" src="img/jobs.png"><br>Jobs</td>
+            <td><img class="top_icons" src="img/games.png"><br>Games</td>
+            <td><img class="top_icons" src="img/get_app.png"><br>Get the app</td>
+            <td><button id="btn3">Join now</button></td>
+            <td><button id="btn4">Sign in</button></td>
+
+          </tr>
+        </table>
+      </div>
     </div>
-    <nav>
-      <ul>
-        <li><a href="#">Articles</a></li>
-        <li><a href="#">People</a></li>
-        <li><a href="#">Learning</a></li>
-        <li><a href="#">Jobs</a></li>
-        <li><a href="#">Games</a></li>
-        <li><a href="#">Get the app</a></li>
-      </ul>
-    </nav>
-    <div class="auth-links">
-      <a href="#" class="join">Join now</a>
-      <a href="#" class="sign-in">Sign in</a>
+
+    <div id="div_bottom">
+      <div id="div_bottom_left">
+        <div id="div_top_textbox">
+          <label id="box_text1">Welcome to your professional community</label>
+          <table style="margin-top:20px; width: 15vw;">
+            <tr>
+              <td><button type="button" id="btn1"><img src="google.webp"
+                    style="width: 20px;height: 20px; background-color: white; border-radius: 50%; padding: 5px;">
+                  Continue with Google</button></td>
+            </tr>
+            <tr>
+              <td><button type="button" class="btn2"><img src="microsoft.png" style="width: 20px;height: 20px; ">
+                  Continue with Microsoft</button></td>
+            </tr>
+            <tr>
+              <td><button type="button" class="btn2">Sign in with email</button></td>
+            </tr>
+            <tr>
+              <td style="text-align: center;"><label id="box_text2">By clicking Continue to join or sign in, you agree
+                  to LinkedIn’s <span class="box_text3">User Agreement, Privacy Policy,</span> and <span
+                    class="box_text3">Cookie Policy.</span></label></td>
+            </tr>
+            <tr>
+              <td style="text-align: center; padding-top: 20px;"><span id="box_text3">New to LinkedIn? <span
+                    id="box_text4">Join now</span></span></td>
+            </tr>
+
+          </table>
+        </div>
+      </div>
+      <div id="div_bottom_right">
+
+      </div>
+
     </div>
-  </header>
-
-  <main>
-    <section class="content">
-      <h1>Welcome to your professional community</h1>
-      <button type="button" class="google-btn">
-        <img src="google-logo.png" alt="Google logo">
-        Continue with Google
-      </button>
-
-      <button type="button" class="email-btn">Sign in with email</button>
-
-      <p>By clicking Continue to join or sign in, you agree to LinkedIn's <a href="#">User Agreement</a>, <a
-          href="#">Privacy Policy</a>, and <a href="#">Cookie Policy</a>.</p>
-      <p class="join-now">New to LinkedIn? <a href="#">Join now</a></p>
-    </section>
-    <section class="illustration">
-      <img src="image.png" alt="Illustration">
-    </section>
-  </main>
+  </div>
 </body>
 
 </html>
