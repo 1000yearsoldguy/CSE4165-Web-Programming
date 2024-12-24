@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pineapple Punch Calculator</title>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  Number of pineapples purchased: <input type="number" id="pineapples">
+
+  <br><br>
+
+  Home delivery:
+  <input type="radio" id="deliveryYes" name="delivery" value="yes"> Yes
+  <input type="radio" id="deliveryNo" name="delivery" value="no"> No
+
+  <br><br>
+
+  Location:
+  <select id="location">
+    <option value="" selected disabled>Select</option>
+    <option value="dhaka">Dhaka</option>
+    <option value="chittagong">Chittagong</option>
+  </select>
+
+  <br><br>
+
+  Tip: <input type="number" id="tip">
+
+  <br><br>
+
+  <button onclick="calculateTotal()">Calculate</button><br><br>
+
+  Your total bill: <span id="totalBill"></span> BDT
+</body>
+
+</html>
