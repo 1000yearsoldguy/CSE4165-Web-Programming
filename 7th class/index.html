@@ -3,15 +3,23 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.8">
-  <title>Document</title>
-  <script src="script.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js" defer></script>
 </head>
 
 <body>
   Num-1: <input type="text" id="num1">
+  <br><br>
   Num-2: <input type="text" id="num2">
-  <input type="submit" value="Add" onclick="showSomething();">
+  <br><br>
+
+  <button onclick="calculate('+')">+</button>
+  <button onclick="calculate('-')">-</button>
+  <button onclick="calculate('*')">*</button>
+  <button onclick="calculate('/')">/</button>
+  <br><br>
+
+  Result: <span id="result"></span>
 </body>
 
 </html>
